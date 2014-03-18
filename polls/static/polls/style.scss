@@ -1,0 +1,18 @@
+$color: #475;
+$title_color:#000;
+$text_color:white;
+$django_image : url("images/django-image.jpg") no-repeat right bottom;
+
+li a{
+	color:$text_color;
+}
+
+h1{
+	color:$title_color;
+}
+
+
+body{
+background: $django_image;
+background-color: $color;
+}
